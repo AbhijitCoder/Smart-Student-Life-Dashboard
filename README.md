@@ -39,3 +39,67 @@ It includes:
 ---
 
 ## 📁 Project Structure
+Smart-Student-Life-Dashboard/
+│
+├── frontend/ (React)
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ └── App.jsx
+│ └── package.json
+│
+├── backend/ (Flask)
+│ ├── app.py
+│ ├── models.py (if separated)
+│ └── requirements.txt
+│
+└── README.md
+
+---
+
+## 🚀 Features
+
+### 🧠 Dashboard
+- Clean card-based UI
+- Responsive layout
+- Real-time productivity stats
+
+### 📋 Task Manager
+- Add / Edit / Delete tasks
+- Mark as completed
+- Stored in database
+
+### 🔁 Habit Tracker
+- Track daily habits
+- Visual progress indicator
+
+### 📝 Notes
+- Create and manage personal notes
+
+### ⏱ Pomodoro Timer
+- 25/5 study session timer
+- Boosts focus and discipline
+
+### 🌗 Dark / Light Mode
+- Smooth theme transition
+- Tailwind CSS dark mode strategy
+
+---
+
+## 🔌 API Endpoints (Backend)
+
+| Method | Endpoint | Description |
+|--------|----------|------------|
+| GET | /api/tasks | Fetch all tasks |
+| POST | /api/tasks | Create new task |
+| PUT | /api/tasks/:id | Update task |
+| DELETE | /api/tasks/:id | Delete task |
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/AbhijitCoder/Smart-Student-Life-Dashboard.git
